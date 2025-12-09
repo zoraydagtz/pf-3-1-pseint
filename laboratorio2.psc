@@ -3,17 +3,20 @@ Algoritmo laboratorio2
 	
 	Definir Opc Como Entero;
 	Definir numero1, numero2, resultado Como Real;
+	Definir Respuesta Como Cadena;
 	
+	
+	Repetir
+		Escribir "¿Quieres hacer una operacion matematica? si/no";
+		Leer Respuesta;
+	Mientras Respuesta=="si"
 	Escribir "Elige el numero de la opcion que desees: ";
 	Escribir "1 Sumar ";
 	Escribir "2 Restar";
 	Escribir "3 Dividir";
 	Escribir "4 Multiplicar";
 	Leer Opc;
-	//sumar
-	//restar
-	//dividir
-	//multiplicar
+
 	Escribir "Escribe el primer numero y da enter";
 	Leer numero1;
 	Escribir "Escribe el segundo numero y da enter";
@@ -26,7 +29,8 @@ Algoritmo laboratorio2
 	FinSegun
 	
 	Imprimir "El resultado es: ", + resultado;
-	//Si terminaste rapido, puedes intentar hacer las operaciones de 3 o más números.
-	
+	FinMientras
+
+	Hasta Que Respuesta == "no";
 	
 FinAlgoritmo
