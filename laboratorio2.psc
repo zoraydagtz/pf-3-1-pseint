@@ -16,6 +16,10 @@ Algoritmo laboratorio2
 	Escribir "3 Dividir";
 	Escribir "4 Multiplicar";
 	Leer Opc;
+	
+	Si Opc==3
+	Imprimir "Tus numeros deben ser mayores a cero";
+	FinSi
 
 	Escribir "Escribe el primer numero y da enter";
 	Leer numero1;
